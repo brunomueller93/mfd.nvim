@@ -33,16 +33,16 @@ hi('FloatBorder',  { fg = c.dim, bg = c.float_bg })
 hi('FloatTitle',   { fg = c.fg, bg = c.float_bg, bold = true })
 hi('FloatShadow',  { bg = c.border, blend = 80 })
 hi('FloatShadowThrough', { bg = c.border, blend = 100 })
-hi('Cursor',       { fg = c.bg, bg = c.fg })
-hi('lCursor',      { fg = c.bg, bg = c.fg })
-hi('CursorIM',     { fg = c.bg, bg = c.fg })
-hi('TermCursor',   { fg = c.bg, bg = c.fg })
+hi('Cursor',       { fg = c.bg, bg = c.bright })
+hi('lCursor',      { fg = c.bg, bg = c.bright })
+hi('CursorIM',     { fg = c.bg, bg = c.bright })
+hi('TermCursor',   { fg = c.bg, bg = c.bright })
 hi('TermCursorNC', { fg = c.bg, bg = c.dim })
-hi('CursorNormal',  { fg = c.bg, bg = '#8A9B70' })  -- light olive, home base
-hi('CursorInsert',  { fg = c.bg, bg = '#C0D498' })  -- bright lime olive, hot
-hi('CursorVisual',  { fg = c.bg, bg = '#7A8B60' })  -- warm olive, selection
-hi('CursorReplace', { fg = c.bg, bg = '#A5B585' })  -- bright olive, between normal/insert
-hi('CursorCommand', { fg = c.bg, bg = '#8A9B70' })  -- same as normal
+hi('CursorNormal',  { fg = c.bg, bg = c.bright })
+hi('CursorInsert',  { fg = c.bg, bg = '#C0D498' })
+hi('CursorVisual',  { fg = c.bg, bg = '#7A8B60' })
+hi('CursorReplace', { fg = c.bg, bg = '#A5B585' })
+hi('CursorCommand', { fg = c.bg, bg = c.bright })
 hi('CursorLine',   { bg = c.cursor })
 hi('CursorColumn', { bg = c.cursor })
 hi('LineNr',       { fg = c.subtle })

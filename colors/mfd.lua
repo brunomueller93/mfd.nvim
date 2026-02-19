@@ -33,16 +33,16 @@ hi('FloatBorder',  { fg = c.dim, bg = c.float_bg })
 hi('FloatTitle',   { fg = c.fg, bg = c.float_bg, bold = true })
 hi('FloatShadow',  { bg = c.border, blend = 80 })
 hi('FloatShadowThrough', { bg = c.border, blend = 100 })
-hi('Cursor',       { fg = c.bg, bg = c.fg })
-hi('lCursor',      { fg = c.bg, bg = c.fg })
-hi('CursorIM',     { fg = c.bg, bg = c.fg })
-hi('TermCursor',   { fg = c.bg, bg = c.fg })
+hi('Cursor',       { fg = c.bg, bg = c.bright })
+hi('lCursor',      { fg = c.bg, bg = c.bright })
+hi('CursorIM',     { fg = c.bg, bg = c.bright })
+hi('TermCursor',   { fg = c.bg, bg = c.bright })
 hi('TermCursorNC', { fg = c.bg, bg = c.dim })
-hi('CursorNormal',  { fg = c.bg, bg = '#2A4A2A' })  -- saturated dark green
-hi('CursorInsert',  { fg = c.bg, bg = '#0D1D0D' })  -- near-black green, max contrast
-hi('CursorVisual',  { fg = c.bg, bg = '#3A5A3A' })  -- medium green, lifted
-hi('CursorReplace', { fg = c.bg, bg = '#1A3A1A' })  -- deep green, between normal/insert
-hi('CursorCommand', { fg = c.bg, bg = '#2A4A2A' })  -- same as normal
+hi('CursorNormal',  { fg = c.fg, bg = c.dim })
+hi('CursorInsert',  { fg = c.fg, bg = "#3A5A3A" })
+hi('CursorVisual',  { fg = c.bg, bg = '#3A5A3A' })
+hi('CursorReplace', { fg = c.bg, bg = '#1A3A1A' })
+hi('CursorCommand', { fg = c.fg, bg = c.dim })
 hi('CursorLine',   { bg = c.cursor })
 hi('CursorColumn', { bg = c.cursor })
 hi('LineNr',       { fg = c.subtle })
